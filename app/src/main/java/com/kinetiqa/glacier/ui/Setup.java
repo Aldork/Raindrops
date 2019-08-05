@@ -2,6 +2,7 @@ package com.kinetiqa.glacier.ui;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,6 +22,7 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -62,6 +64,36 @@ public class Setup extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+
+		String sampleXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
+				" - <note>\n" +
+				"       <to>Text</to>\n" +
+				"       <from>Jani</from>\n" +
+				"       <heading>Reminder</heading>\n" +
+				"       <body>Don't forget me this weekend!</body>\n" +
+				"   </note>";
+
+		byte b[]=sampleXML.getBytes();
+
+		OutputStream output = null;
+		rootDir = new File(Config.CONTENT_DIR_PATH);
+		rootDir.mkdirs();
+		File outputFile = new File(rootDir, "menu.xml");
+		try {
+			output = new FileOutputStream(outputFile);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+
+		try {
+			output.write(b);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		System.out.println("------------File--------------");
+		System.out.println(outputFile);
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.setup);
 
@@ -85,7 +117,7 @@ public class Setup extends Activity {
 			@Override
 			public void onClick(View v) {
 				setupAddress = setupAddressEditText.getText().toString();
-				protocol = "http"; // TODO 
+				protocol = "http"; // TODO
 				if (setupAddress == null || setupAddress.equals("")) {
 					feedbackTextView
 							.setText("Oops! No address specified. Try again.");
@@ -106,6 +138,9 @@ public class Setup extends Activity {
 						getApplicationContext());
 				downloadTask.execute(protocol + "://" + setupAddress + "/content/menu.xml");
 
+				Intent i = new Intent(getApplicationContext(), Home.class);
+				startActivity(i);
+				finish();
 				progressDialog
 						.setOnCancelListener(new DialogInterface.OnCancelListener() {
 							@Override

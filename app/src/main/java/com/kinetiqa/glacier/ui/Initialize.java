@@ -35,6 +35,8 @@ public class Initialize extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+		System.out.println("Saved instance");
+		System.out.println(savedInstanceState);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.loading);
 		sharedPreferences = PreferenceManager
@@ -51,7 +53,6 @@ public class Initialize extends Activity {
 		case DatabaseHelper.DATABASE_READY:
 			// Everything is in order.
 			// TODO: Check database updates in the future
-
 			Intent i = new Intent(getApplicationContext(), Home.class);
 			startActivity(i);
 			finish();

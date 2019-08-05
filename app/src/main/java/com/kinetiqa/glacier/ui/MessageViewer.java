@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.ActionBarActivity;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -22,11 +20,9 @@ import com.kinetiqa.glacier.core.Config;
 import com.kinetiqa.glacier.core.StatisticsManager;
 import com.kinetiqa.glacier.database.DatabaseHelper;
 import com.kinetiqa.glacier.messaging.Message;
-import com.kinetiqa.glacier.messaging.MessagingManager;
 import com.kinetiqa.glacier.ui.components.MediaVideoView;
 import com.kinetiqa.glacier.utils.TimeConversion;
 
-import java.io.File;
 import java.io.IOException;
 
 

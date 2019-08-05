@@ -1,6 +1,5 @@
 package com.kinetiqa.glacier.ui;
 
-import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -13,7 +12,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.Html;
@@ -32,16 +30,13 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.kinetiqa.glacier.R;
 import com.kinetiqa.glacier.components.MenuErrorMessage;
-import com.kinetiqa.glacier.core.Config;
 import com.kinetiqa.glacier.core.PointsManager;
 import com.kinetiqa.glacier.core.SidebarManager;
 import com.kinetiqa.glacier.core.StatisticsManager;
-import com.kinetiqa.glacier.core.connection.ConnectionManager;
 import com.kinetiqa.glacier.core.connection.receiver.AlarmReceiver;
 import com.kinetiqa.glacier.database.DatabaseHelper;
 import com.kinetiqa.glacier.dialogs.DialogInfo;
@@ -52,9 +47,6 @@ import com.kinetiqa.glacier.menu.MenuItem;
 import com.kinetiqa.glacier.menu.MenuManager;
 import com.kinetiqa.glacier.ui.components.SidebarItem;
 import com.kinetiqa.glacier.utils.TimeConversion;
-import com.kinetiqa.glacier.utils.Utils;
-
-import java.util.Calendar;
 import java.util.List;
 
 

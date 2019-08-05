@@ -13,7 +13,6 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
@@ -27,10 +26,8 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.os.Environment;
 import android.os.PowerManager;
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -38,13 +35,9 @@ import android.util.Log;
 import com.kinetiqa.glacier.components.CompletedLeader;
 import com.kinetiqa.glacier.components.PointsLeader;
 import com.kinetiqa.glacier.core.Config;
-import com.kinetiqa.glacier.core.StatisticsManager;
 import com.kinetiqa.glacier.database.DatabaseHelper;
-import com.kinetiqa.glacier.menu.MenuManager;
 import com.kinetiqa.glacier.messaging.Message;
-import com.kinetiqa.glacier.utils.TimeConversion;
 import com.kinetiqa.glacier.utils.Utils;
-import com.kinetiqa.glacier.utils.Writer;
 
 public class ConnectionManager {
 
