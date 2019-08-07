@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "C:\\Users\\teamat\\Documents\\TravailLocal\\Android\\FrancoisRouthier_EPICWheels\\TEAMWheels\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\teamat\\.gradle\\caches\\transforms-2\\files-2.1\\c4c238ce5273d702f0fe78c3d026c67f\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

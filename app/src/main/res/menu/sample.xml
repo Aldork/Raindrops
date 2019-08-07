@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<menu
+    name="Main"
+    desc=""
+    id="root"
+    requires="">
+    <menu
+        name="Safety"
+        desc=""
+        id="151sd5"
+        requires="">
+        <item
+            activity="true"
+            desc=""
+            id="40j03G"
+            path="40j03G.html"
+            requires=""
+            type="1">Safety Item 1
+        </item>
+        <item
+            activity="true"
+            desc=""
+            id="40j03H"
+            path="123123.html"
+            requires=""
+            type="1">Safety Item 2
+        </item>
+    </menu>
+    <menu
+        name="Test"
+        desc=""
+        id="151sd6"
+        requires="151sd5">
+        <item
+            activity="true"
+            desc=""
+            id="40j03I"
+            path="40j03G.html"
+            requires=""
+            type="1">Test Item 1
+        </item>
+    </menu>
+</menu>

@@ -1,209 +1,209 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:2:1-53:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/84c0b91088716197f0d0383ebebf328b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/bc4d127421974d80cc685a5fc0d0421a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/7ee1e60ac5bea0589a24e2484c46b41c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5779c2fc6c0a1d989b093bd4229c43b9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/484ab113cfe60f80a823eb8a0e3c7633/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/49eb85acb5a8bd5512723593cda4694d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/b14da726a46bc313d22a370b9c42d276/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/2f6233a282e9a5557f6304d782be0eae/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/6708967fbdcf0f32fa600717c239b5fc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/a005142e6bed4a776e3429ebbeb8b73b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/9aeae267859479a5632a7f1482ee60b0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/a116f1c0079b0ed63a960e859f1a8e6d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/879526d523e36f136ae1c3e9889e5dd4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5fb1ece1948f44a7800931f1868b7291/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5803487eefe6c76aa083d4d1f6565e2e/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/1fea19f5dba7fb9c2eb555af2d44d662/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/a1f8b8e3b2e6f8bccbe03dc4295e2b17/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/83fbe6a8dce42bbca36a0faa03583123/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/8665698c5b5bf2a6db81fe6849c8f760/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/2abb32ca8e822a173b2526d16857447d/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/2c54a6b2c46037c31ef55fbd7bfaef63/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/41f0bde93398e91e5702ac63cf2fc16f/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/efcebf7654fe0a5c3722f8a4222841d3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/dcb6bf90b78dd911a2c2715aaf17757e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/4329f5e774921a150652b0a9381855fe/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:2:1-53:12
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:2:1-53:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\c4c238ce5273d702f0fe78c3d026c67f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\a43f6200ac320c4bf39d03991d3f28cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\142a4503c1e8b75f15c01479b2d70043\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\8074477e6fd4e3fb6ec0e22706745c1f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\118cbaff222cc816161ca1dc4d6fcb59\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\b30a9562189f839961f6faef8418ceb1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\b3d0eba35a9472dbb082ed095cd02236\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\c9e0090a5aa7e6f4458d83e52b1dee85\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\d0b84078319ae1e08abae8342e9925c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ecb82fe723d4244472f2edd3fbd8ec16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\0b055243c5da7860ad3867a37d590f10\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\a17eca2c4d7a9b50bbb2db9fd78dca80\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\99589f30d84c48f5194fa579bca69b34\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\653d1471e036e64f286219be93805fd9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\6717f66e379e335ba1a2a1c94d76c565\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ff0f1e60fe14df642729ee27d9e2cd78\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\6fc35cb09435e469ab016169a33ecaf8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\4a2d293ae896836ed3e1bccf72243dc1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\7e2b5dac9898e293a2c609be6de6d5e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\97396114e4cb0913328666e35f1ebaf3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ae3ec18ba6d31462d28fb32bc5b5165c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\a4c52f1fda6f0c0be8d61ddd3bf4c2d4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\647f2480aef6fcff1699624ac6b270b9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\33e94b08bafbf7cd3a8a65d6ea20e1d7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\c8f0ceb26641876f8650ec2c8dde0d6f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\b08ad6755188efcf5e724f55b9b43100\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:3:5-35
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:3:5-35
 	android:versionName
-		INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:2:1-53:12
-		INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:2:1-53:12
+		INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:2:1-53:12
-		INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:2:1-53:12
+		INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:7:5-81
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:8:5-71
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:8:22-68
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:8:22-68
 uses-permission#android.permission.CAMERA
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:9:5-65
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:9:22-62
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:9:22-62
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:10:5-68
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:10:5-68
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:10:22-65
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:10:22-65
 application
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:12:5-51:19
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5fb1ece1948f44a7800931f1868b7291/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5fb1ece1948f44a7800931f1868b7291/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5803487eefe6c76aa083d4d1f6565e2e/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5803487eefe6c76aa083d4d1f6565e2e/AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:12:5-51:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\6717f66e379e335ba1a2a1c94d76c565\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\6717f66e379e335ba1a2a1c94d76c565\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ff0f1e60fe14df642729ee27d9e2cd78\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ff0f1e60fe14df642729ee27d9e2cd78\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5fb1ece1948f44a7800931f1868b7291/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\6717f66e379e335ba1a2a1c94d76c565\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:16:9-41
 	android:icon
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:14:9-45
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:14:9-45
 	android:allowBackup
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:15:9-62
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:15:9-62
 activity#com.kinetiqa.glacier.ui.Initialize
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:17:9-26:20
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:17:9-26:20
 	android:screenOrientation
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:21:13-50
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:21:13-50
 	android:label
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:19:13-45
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:19:13-45
 	android:launchMode
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:20:13-44
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:20:13-44
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:18:13-42
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:18:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:22:13-25:29
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.kinetiqa.glacier.ui.Setup
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:27:9-29:53
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:27:9-29:53
 	android:screenOrientation
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:29:13-50
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:29:13-50
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:28:13-37
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:28:13-37
 activity#com.kinetiqa.glacier.ui.Home
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:30:9-32:52
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:30:9-32:52
 	android:screenOrientation
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:32:13-50
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:32:13-50
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:31:13-36
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:31:13-36
 activity#com.kinetiqa.glacier.ui.MediaDocument
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:33:9-35:53
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:33:9-35:53
 	android:screenOrientation
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:35:13-50
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:35:13-50
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:34:13-45
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:34:13-45
 activity#com.kinetiqa.glacier.ui.MediaVideo
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:36:9-38:53
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:36:9-38:53
 	android:screenOrientation
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:38:13-50
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:38:13-50
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:37:13-42
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:37:13-42
 activity#com.kinetiqa.glacier.ui.MessageViewer
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:39:9-41:53
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:39:9-41:53
 	android:screenOrientation
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:41:13-50
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:41:13-50
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:40:13-45
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:40:13-45
 activity#com.kinetiqa.glacier.ui.Settings
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:42:9-44:53
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:42:9-44:53
 	android:screenOrientation
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:44:13-50
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:44:13-50
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:43:13-40
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:43:13-40
 service#com.kinetiqa.glacier.core.connection.service.BackgroundSyncService
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:46:9-47:19
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:46:9-47:19
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:46:18-79
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:46:18-79
 receiver#com.kinetiqa.glacier.core.connection.receiver.AlarmReceiver
-ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:49:9-50:20
+ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:49:9-50:20
 	android:name
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml:49:19-73
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml:49:19-73
 uses-sdk
-INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/84c0b91088716197f0d0383ebebf328b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/84c0b91088716197f0d0383ebebf328b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/bc4d127421974d80cc685a5fc0d0421a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/bc4d127421974d80cc685a5fc0d0421a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/7ee1e60ac5bea0589a24e2484c46b41c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/7ee1e60ac5bea0589a24e2484c46b41c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5779c2fc6c0a1d989b093bd4229c43b9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5779c2fc6c0a1d989b093bd4229c43b9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/484ab113cfe60f80a823eb8a0e3c7633/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/484ab113cfe60f80a823eb8a0e3c7633/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/49eb85acb5a8bd5512723593cda4694d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/49eb85acb5a8bd5512723593cda4694d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/b14da726a46bc313d22a370b9c42d276/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/b14da726a46bc313d22a370b9c42d276/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/2f6233a282e9a5557f6304d782be0eae/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/2f6233a282e9a5557f6304d782be0eae/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/6708967fbdcf0f32fa600717c239b5fc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/6708967fbdcf0f32fa600717c239b5fc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/a005142e6bed4a776e3429ebbeb8b73b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/a005142e6bed4a776e3429ebbeb8b73b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/9aeae267859479a5632a7f1482ee60b0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/9aeae267859479a5632a7f1482ee60b0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/a116f1c0079b0ed63a960e859f1a8e6d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/a116f1c0079b0ed63a960e859f1a8e6d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/879526d523e36f136ae1c3e9889e5dd4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/879526d523e36f136ae1c3e9889e5dd4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5fb1ece1948f44a7800931f1868b7291/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5fb1ece1948f44a7800931f1868b7291/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5803487eefe6c76aa083d4d1f6565e2e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5803487eefe6c76aa083d4d1f6565e2e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/1fea19f5dba7fb9c2eb555af2d44d662/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/1fea19f5dba7fb9c2eb555af2d44d662/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/a1f8b8e3b2e6f8bccbe03dc4295e2b17/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/a1f8b8e3b2e6f8bccbe03dc4295e2b17/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/83fbe6a8dce42bbca36a0faa03583123/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/83fbe6a8dce42bbca36a0faa03583123/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/8665698c5b5bf2a6db81fe6849c8f760/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/8665698c5b5bf2a6db81fe6849c8f760/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/2abb32ca8e822a173b2526d16857447d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/2abb32ca8e822a173b2526d16857447d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/2c54a6b2c46037c31ef55fbd7bfaef63/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/2c54a6b2c46037c31ef55fbd7bfaef63/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/41f0bde93398e91e5702ac63cf2fc16f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/41f0bde93398e91e5702ac63cf2fc16f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/efcebf7654fe0a5c3722f8a4222841d3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/efcebf7654fe0a5c3722f8a4222841d3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/dcb6bf90b78dd911a2c2715aaf17757e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/dcb6bf90b78dd911a2c2715aaf17757e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/4329f5e774921a150652b0a9381855fe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/4329f5e774921a150652b0a9381855fe/AndroidManifest.xml:20:5-44
-INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml
+INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\c4c238ce5273d702f0fe78c3d026c67f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\c4c238ce5273d702f0fe78c3d026c67f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\a43f6200ac320c4bf39d03991d3f28cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\a43f6200ac320c4bf39d03991d3f28cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\142a4503c1e8b75f15c01479b2d70043\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\142a4503c1e8b75f15c01479b2d70043\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\8074477e6fd4e3fb6ec0e22706745c1f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\8074477e6fd4e3fb6ec0e22706745c1f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\118cbaff222cc816161ca1dc4d6fcb59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\118cbaff222cc816161ca1dc4d6fcb59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\b30a9562189f839961f6faef8418ceb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\b30a9562189f839961f6faef8418ceb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\b3d0eba35a9472dbb082ed095cd02236\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\b3d0eba35a9472dbb082ed095cd02236\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\c9e0090a5aa7e6f4458d83e52b1dee85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\c9e0090a5aa7e6f4458d83e52b1dee85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\d0b84078319ae1e08abae8342e9925c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\d0b84078319ae1e08abae8342e9925c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ecb82fe723d4244472f2edd3fbd8ec16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ecb82fe723d4244472f2edd3fbd8ec16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\0b055243c5da7860ad3867a37d590f10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\0b055243c5da7860ad3867a37d590f10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\a17eca2c4d7a9b50bbb2db9fd78dca80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\a17eca2c4d7a9b50bbb2db9fd78dca80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\99589f30d84c48f5194fa579bca69b34\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\99589f30d84c48f5194fa579bca69b34\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\653d1471e036e64f286219be93805fd9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\653d1471e036e64f286219be93805fd9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\6717f66e379e335ba1a2a1c94d76c565\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\6717f66e379e335ba1a2a1c94d76c565\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ff0f1e60fe14df642729ee27d9e2cd78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ff0f1e60fe14df642729ee27d9e2cd78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\6fc35cb09435e469ab016169a33ecaf8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\6fc35cb09435e469ab016169a33ecaf8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\4a2d293ae896836ed3e1bccf72243dc1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\4a2d293ae896836ed3e1bccf72243dc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\7e2b5dac9898e293a2c609be6de6d5e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\7e2b5dac9898e293a2c609be6de6d5e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\97396114e4cb0913328666e35f1ebaf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\97396114e4cb0913328666e35f1ebaf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ae3ec18ba6d31462d28fb32bc5b5165c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\ae3ec18ba6d31462d28fb32bc5b5165c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\a4c52f1fda6f0c0be8d61ddd3bf4c2d4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\a4c52f1fda6f0c0be8d61ddd3bf4c2d4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\647f2480aef6fcff1699624ac6b270b9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\647f2480aef6fcff1699624ac6b270b9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\33e94b08bafbf7cd3a8a65d6ea20e1d7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\33e94b08bafbf7cd3a8a65d6ea20e1d7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\c8f0ceb26641876f8650ec2c8dde0d6f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\c8f0ceb26641876f8650ec2c8dde0d6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\b08ad6755188efcf5e724f55b9b43100\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\teamat\.gradle\caches\transforms-2\files-2.1\b08ad6755188efcf5e724f55b9b43100\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yannickvanderloo/dev/Raindrops/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\teamat\Documents\TravailLocal\Android\FrancoisRouthier_EPICWheels\TEAMWheels\app\src\main\AndroidManifest.xml

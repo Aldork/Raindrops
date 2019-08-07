@@ -29,6 +29,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.PowerManager;
 import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -65,15 +66,18 @@ public class Setup extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 
-		String sampleXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
-				" - <note>\n" +
-				"       <to>Text</to>\n" +
-				"       <from>Jani</from>\n" +
-				"       <heading>Reminder</heading>\n" +
-				"       <body>Don't forget me this weekend!</body>\n" +
-				"   </note>";
+		/*String sampleXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
+				" <menu id=\"root\" requires=\"\" name=\"Main\" desc=\"\">\n" +
+				"<menu id=\"151sd5\" name=\"Safety\" requires=\"\" desc=\"\">\n" +
+				"    <item id=\"40j03G\" type=\"1\" activity=\"true\" path=\"40j03G.html\" requires=\"\" desc=\"\">Safety Item 1</item>\n" +
+				"    <item id=\"40j03H\" type=\"1\" activity=\"true\" path=\"123123.html\" requires=\"\" desc=\"\">Safety Item 2</item>\n" +
+				"</menu>\n" +
+				"<menu id=\"151sd6\" name=\"Test\" requires=\"151sd5\" desc=\"\">\n" +
+				"    <item id=\"40j03I\" type=\"1\" activity=\"true\" path=\"40j03G.html\" requires=\"\" desc=\"\">Test Item 1</item>\n" +
+				"</menu>\n" +
+				"</menu>\n";
 
-		byte b[]=sampleXML.getBytes();
+		byte b[]=sampleXML.getBytes();*/
 
 		OutputStream output = null;
 		rootDir = new File(Config.CONTENT_DIR_PATH);
@@ -90,6 +94,8 @@ public class Setup extends Activity {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+
+		Log.i("MyActivity", "Hellloooo");
 
 		System.out.println("------------File--------------");
 		System.out.println(outputFile);
