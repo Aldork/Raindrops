@@ -66,7 +66,7 @@ public class Setup extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 
-		/*String sampleXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
+		String sampleXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
 				" <menu id=\"root\" requires=\"\" name=\"Main\" desc=\"\">\n" +
 				"<menu id=\"151sd5\" name=\"Safety\" requires=\"\" desc=\"\">\n" +
 				"    <item id=\"40j03G\" type=\"1\" activity=\"true\" path=\"40j03G.html\" requires=\"\" desc=\"\">Safety Item 1</item>\n" +
@@ -77,7 +77,7 @@ public class Setup extends Activity {
 				"</menu>\n" +
 				"</menu>\n";
 
-		byte b[]=sampleXML.getBytes();*/
+		byte b[]=sampleXML.getBytes();
 
 		OutputStream output = null;
 		rootDir = new File(Config.CONTENT_DIR_PATH);
@@ -97,9 +97,6 @@ public class Setup extends Activity {
 
 		Log.i("MyActivity", "Hellloooo");
 
-		System.out.println("------------File--------------");
-		System.out.println(outputFile);
-
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.setup);
 
@@ -107,55 +104,10 @@ public class Setup extends Activity {
 				.getDefaultSharedPreferences(Setup.this);
 		rootDir = new File(Config.CONTENT_DIR_PATH);
 		rootDir.mkdirs();
-		File nomedia = new File(rootDir, ".nomedia");
-		try {
-			nomedia.createNewFile();
-		} catch (IOException e) {
-			// Not much we can do if we can't write
-			e.printStackTrace();
-		}
 
-		feedbackTextView = (TextView) findViewById(R.id.setup_label);
-		setupAddressEditText = (EditText) findViewById(R.id.setup_address);
-
-		continueButton = (Button) findViewById(R.id.setup_continue);
-		continueButton.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				setupAddress = setupAddressEditText.getText().toString();
-				protocol = "http"; // TODO
-				if (setupAddress == null || setupAddress.equals("")) {
-					feedbackTextView
-							.setText("Oops! No address specified. Try again.");
-					return;
-				}
-
-				feedbackTextView.setText("Please wait - downloading content.");
-
-				progressDialog = new ProgressDialog(Setup.this);
-				progressDialog.setIndeterminate(true);
-				progressDialog
-						.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-				progressDialog.setCancelable(true);
-
-
-				String protocol = sharedPreferences.getString("url_protocol", "http");
-				final MenuStructureDownloaderTask downloadTask = new MenuStructureDownloaderTask(
-						getApplicationContext());
-				downloadTask.execute(protocol + "://" + setupAddress + "/content/menu.xml");
-
-				Intent i = new Intent(getApplicationContext(), Home.class);
-				startActivity(i);
-				finish();
-				progressDialog
-						.setOnCancelListener(new DialogInterface.OnCancelListener() {
-							@Override
-							public void onCancel(DialogInterface dialog) {
-								downloadTask.cancel(true);
-							}
-						});
-			}
-		});
+		Intent i = new Intent(getApplicationContext(), Home.class);
+		startActivity(i);
+		finish();
 	}
 
 	@Override
