@@ -1123,6 +1123,7 @@ layout stats_fragment
 layout support_simple_spinner_dropdown_item
 menu home
 menu sample
+raw sample
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

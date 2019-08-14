@@ -76,24 +76,24 @@
         "source": "/Users/yannickvanderloo/dev/Raindrops/app/src/main/res/drawable-xxhdpi/ic_action_video_green_complete.png"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/anim/abc_popup_enter.xml"
-    },
-    {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_collection_blue_locked.png.flat",
         "source": "/Users/yannickvanderloo/dev/Raindrops/app/src/main/res/drawable-xxhdpi/ic_action_collection_blue_locked.png"
+    },
+    {
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -148,12 +148,12 @@
         "source": "/Users/yannickvanderloo/dev/Raindrops/app/src/main/res/drawable-xhdpi/ic_action_collection_blue.png"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/color-v23_abc_tint_switch_track.xml.flat",
@@ -248,20 +248,20 @@
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5fb1ece1948f44a7800931f1868b7291/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -316,24 +316,24 @@
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_video.png.flat",
         "source": "/Users/yannickvanderloo/dev/Raindrops/app/src/main/res/drawable-xxhdpi/ic_action_video.png"
+    },
+    {
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -360,12 +360,12 @@
         "source": "/Users/yannickvanderloo/dev/Raindrops/app/src/main/res/drawable-xhdpi/ic_action_settings.png"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5fb1ece1948f44a7800931f1868b7291/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/5fb1ece1948f44a7800931f1868b7291/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable_nav_exit_button_selector.xml.flat",
@@ -424,20 +424,20 @@
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable/tooltip_frame_light.xml"
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/layout-sw720dp_message_viewer.xml.flat",
         "source": "/Users/yannickvanderloo/dev/Raindrops/app/src/main/res/layout-sw720dp/message_viewer.xml"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -460,16 +460,16 @@
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-hdpi_award_2_days.png.flat",
-        "source": "/Users/yannickvanderloo/dev/Raindrops/app/src/main/res/drawable-hdpi/award_2_days.png"
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_doc_green.png.flat",
         "source": "/Users/yannickvanderloo/dev/Raindrops/app/src/main/res/drawable-xhdpi/ic_action_doc_green.png"
     },
     {
-        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-hdpi_award_2_days.png.flat",
+        "source": "/Users/yannickvanderloo/dev/Raindrops/app/src/main/res/drawable-hdpi/award_2_days.png"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
@@ -598,6 +598,10 @@
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/raw_sample.mp4.flat",
+        "source": "/Users/yannickvanderloo/dev/Raindrops/app/src/main/res/raw/sample.mp4"
     },
     {
         "merged": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/res/merged/debug/drawable-hdpi_bg_main_pebbles.png.flat",

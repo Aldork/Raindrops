@@ -34,6 +34,11 @@ import com.kinetiqa.glacier.menu.MenuManager;
 import com.kinetiqa.glacier.utils.TimeConversion;
 import com.kinetiqa.glacier.utils.Utils;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -324,6 +329,7 @@ public class FragmentMainMenu extends Fragment {
 
                     if (menu instanceof MenuItem) {
                         if (((MenuItem) menu).getMediaType() == MenuManager.MEDIA_VIDEO) {
+                            writeVideo(Config.MENU_MEDIA_PATH_PREFIX + ((MenuItem) menu).getMediaName());
                             long videoLength = Utils.getLengthOfVideoFileMilliseconds(getActivity(), Config.MENU_MEDIA_PATH_PREFIX + ((MenuItem) menu).getMediaName());
                             ((MenuItem) menu).setVideoLength(videoLength);
                         }
@@ -341,6 +347,36 @@ public class FragmentMainMenu extends Fragment {
 
             initMainMenuBreadcrumb();
             initMainMenuStats();
+        }
+
+        private void writeVideo(String path) {
+
+            try
+            {
+
+                InputStream is = getResources().openRawResource(R.raw.sample);
+                //FileInputStream fin = new FileInputStream(new File(sourceFilePath));
+                System.out.println("hello");
+                File file = new File(path);
+                System.out.println("hello1");
+                OutputStream fout = new FileOutputStream(file);
+                System.out.println("hello2");
+
+                byte[] buffer = new byte[is.available()];
+
+                while(is.available() != 0) {
+                    is.read(buffer);
+                    System.out.println(buffer);
+                    fout.write(buffer);
+                }
+
+                is.close();
+                fout.close();
+
+            }
+            catch(Exception e) {
+                System.out.println("Something went wrong! Reason: " + e.getMessage());
+            }
         }
     }
 }
