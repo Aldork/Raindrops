@@ -13,7 +13,7 @@ public abstract class Menu {
 
     protected boolean isCompleted = false;
     protected boolean isBookmarked = false;
-    protected boolean isPermitted = false;
+    protected boolean isPermitted = true;
 
     protected int interactionTime = 0;
 

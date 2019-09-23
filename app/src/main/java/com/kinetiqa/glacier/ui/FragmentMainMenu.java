@@ -359,6 +359,8 @@ public class FragmentMainMenu extends Fragment {
                 System.out.println("hello");
                 File file = new File(path);
                 System.out.println("hello1");
+                System.out.println(file);
+                file.getParentFile().mkdirs();
                 OutputStream fout = new FileOutputStream(file);
                 System.out.println("hello2");
 

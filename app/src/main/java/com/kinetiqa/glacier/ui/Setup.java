@@ -67,14 +67,14 @@ public class Setup extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 
 		String sampleXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
-				" <menu id=\"root\" requires=\"\" name=\"Main\" desc=\"\">\n" +
-				"<menu id=\"151sd5\" name=\"Safety\" requires=\"\" desc=\"\">\n" +
-				"    <item id=\"40j03G\" type=\"1\" activity=\"true\" path=\"40j03G.html\" requires=\"\" desc=\"\">Safety Item 1</item>\n" +
-				"    <item id=\"40j03H\" type=\"1\" activity=\"true\" path=\"123123.html\" requires=\"\" desc=\"\">Safety Item 2</item>\n" +
-				"</menu>\n" +
-				"<menu id=\"151sd6\" name=\"Test\" requires=\"151sd5\" desc=\"\">\n" +
-				"    <item id=\"40j03I\" type=\"1\" activity=\"true\" path=\"40j03G.html\" requires=\"\" desc=\"\">Test Item 1</item>\n" +
-				"</menu>\n" +
+				"<menu id=\"root\" requires=\"\" name=\"Main\" desc=\"\">\n" +
+					"<menu id=\"151sd5\" name=\"Safety\" requires=\"\" desc=\"\">\n" +
+					"    <item id=\"40j03G\" type=\"1\" activity=\"true\" path=\"40j03G.html\" requires=\"\" desc=\"\">Safety Item 1</item>\n" +
+					"    <item id=\"40j03H\" type=\"1\" activity=\"true\" path=\"123123.html\" requires=\"\" desc=\"\">Safety Item 2</item>\n" +
+					"</menu>\n" +
+					"<menu id=\"151sd6\" name=\"Test\" requires=\"151sd5\" desc=\"\">\n" +
+					"    <item id=\"40j03I\" type=\"1\" activity=\"true\" path=\"40j03G.html\" requires=\"\" desc=\"\">Test Item 1</item>\n" +
+					"</menu>\n" +
 				"</menu>\n";
 
 		byte b[]=sampleXML.getBytes();

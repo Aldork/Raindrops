@@ -1,4 +1,4 @@
-#Wed Aug 14 14:51:43 EDT 2019
-base.0=/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/dex/debug/mergeDexDebug/out
+#Mon Sep 23 14:20:33 EDT 2019
+base.0=D\:\\Raindrops\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

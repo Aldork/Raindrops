@@ -390,7 +390,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         } finally {
             c.close();
         }
-        return locked;
+        return true;
     }
 
     /**

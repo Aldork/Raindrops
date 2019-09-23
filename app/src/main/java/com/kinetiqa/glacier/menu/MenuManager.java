@@ -91,6 +91,7 @@ public class MenuManager {
 
     public MenuErrorMessage getOpenMenuErrorMessages(Context c, Menu menu) {
         boolean isPermitted = DatabaseHelper.getInstance(c).isPermitted(menu.getID());
+
         if (!isPermitted) {
             return new MenuErrorMessage("Locked", "This item has been locked by the trainer.");
         }

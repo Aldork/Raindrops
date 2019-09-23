@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yannickvanderloo/dev/Raindrops/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "D:\\Raindrops\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/yannickvanderloo/.gradle/caches/transforms-2/files-2.1/22c92d852228e966b5d212101c57ebaf/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\Yannick\\.gradle\\caches\\transforms-2\\files-2.1\\f9f83ffc3410d1db618a8d25bbb7af3c\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
