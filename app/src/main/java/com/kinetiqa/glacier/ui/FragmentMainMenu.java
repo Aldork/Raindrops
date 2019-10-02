@@ -326,7 +326,6 @@ public class FragmentMainMenu extends Fragment {
 
                     int interactionTime = StatisticsManager.getInstance(getActivity()).getNumSecondsViewingMenu(menu);
                     menu.setInteractionTime(interactionTime);
-
                     if (menu instanceof MenuItem) {
                         if (((MenuItem) menu).getMediaType() == MenuManager.MEDIA_VIDEO) {
                             writeVideo(Config.MENU_MEDIA_PATH_PREFIX + ((MenuItem) menu).getMediaName());
@@ -356,25 +355,20 @@ public class FragmentMainMenu extends Fragment {
 
                 InputStream is = getResources().openRawResource(R.raw.sample);
                 //FileInputStream fin = new FileInputStream(new File(sourceFilePath));
-                System.out.println("hello");
                 File file = new File(path);
-                System.out.println("hello1");
+                System.out.println("file path");
                 System.out.println(file);
                 file.getParentFile().mkdirs();
                 OutputStream fout = new FileOutputStream(file);
-                System.out.println("hello2");
 
                 byte[] buffer = new byte[is.available()];
 
                 while(is.available() != 0) {
-                    is.read(buffer);
-                    System.out.println(buffer);
-                    fout.write(buffer);
+                    fout.write(is.read(buffer));
                 }
 
                 is.close();
                 fout.close();
-
             }
             catch(Exception e) {
                 System.out.println("Something went wrong! Reason: " + e.getMessage());

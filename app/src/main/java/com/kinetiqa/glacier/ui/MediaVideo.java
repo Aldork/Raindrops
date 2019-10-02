@@ -1,9 +1,11 @@
 package com.kinetiqa.glacier.ui;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,6 +27,9 @@ import com.kinetiqa.glacier.menu.MenuItem;
 import com.kinetiqa.glacier.menu.MenuManager;
 import com.kinetiqa.glacier.ui.components.MediaVideoView;
 
+import java.io.File;
+import java.io.InputStream;
+
 
 public class MediaVideo extends Activity implements MediaViewer {
 
@@ -38,6 +43,7 @@ public class MediaVideo extends Activity implements MediaViewer {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.println("on create");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.media_video);
         Intent intent = getIntent();
@@ -186,8 +192,16 @@ public class MediaVideo extends Activity implements MediaViewer {
     }
 
     private void initVideoPlayer() {
+        System.out.println("MediaVideo Path");
+        System.out.println(Config.MENU_MEDIA_PATH_PREFIX + video.getMediaName());
+
+        String videoName = video.getMediaName().replaceAll("\\.(.*)", "");
+
+        int id = getResources().getIdentifier("sample", "raw", getPackageName());
+        String path = "android.resource://" + getPackageName() + "/raw/" + videoName;
+
         videoView = (MediaVideoView) findViewById(R.id.vp_video);
-        videoView.setVideoPath(Config.MENU_MEDIA_PATH_PREFIX + video.getMediaName());
+        videoView.setVideoURI(Uri.parse(path));
         videoView.requestFocus();
 
         controller = new MediaController(this);

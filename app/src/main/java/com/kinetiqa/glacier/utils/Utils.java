@@ -6,6 +6,8 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 
+import com.kinetiqa.glacier.R;
+
 import java.io.File;
 
 /**
@@ -48,7 +50,7 @@ public class Utils {
     }
 
     public static long getLengthOfVideoFileMilliseconds(Context c, String path) {
-        MediaPlayer mp = MediaPlayer.create(c, Uri.fromFile(new File(path)));
+        MediaPlayer mp = MediaPlayer.create(c, R.raw.sample);
         int duration = mp.getDuration();
         mp.release();
         return duration;
