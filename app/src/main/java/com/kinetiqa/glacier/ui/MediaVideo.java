@@ -13,6 +13,7 @@ import android.widget.ImageButton;
 import android.widget.MediaController;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 import com.kinetiqa.glacier.R;
 import com.kinetiqa.glacier.core.Config;
@@ -70,7 +71,7 @@ public class MediaVideo extends Activity implements MediaViewer {
     @Override
     protected void onResume() {
         super.onResume();
-        StatisticsManager.getInstance(getApplicationContext()).endPause();
+        //StatisticsManager.getInstance(getApplicationContext()).endPause();
         if (dialogStopwatch != null) {
             dialogStopwatch.resumeTimer();
         }
@@ -192,31 +193,29 @@ public class MediaVideo extends Activity implements MediaViewer {
     }
 
     private void initVideoPlayer() {
-        System.out.println("MediaVideo Path");
-        System.out.println(Config.MENU_MEDIA_PATH_PREFIX + video.getMediaName());
-
         String videoName = video.getMediaName().replaceAll("\\.(.*)", "");
 
-        int id = getResources().getIdentifier("sample", "raw", getPackageName());
         String path = "android.resource://" + getPackageName() + "/raw/" + videoName;
 
-        videoView = (MediaVideoView) findViewById(R.id.vp_video);
-        videoView.setVideoURI(Uri.parse(path));
-        videoView.requestFocus();
+        System.out.println("***2***");
+        System.out.println(Uri.parse(path));
+
+        videoView = findViewById(R.id.vp_video);
 
         controller = new MediaController(this);
         controller.setAnchorView(videoView);
-        controller.setMediaPlayer(videoView);
 
         videoView.setMediaController(controller);
+        videoView.setVideoURI(Uri.parse(path));
+        videoView.requestFocus();
+
         videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer mp) {
                 videoView.start();
-                videoView.requestFocus();
-                controller.show(0);
             }
         });
+
         videoView.setPlayPauseListener(new MediaVideoView.PlayPauseListener() {
             @Override
             public void onPlay() {

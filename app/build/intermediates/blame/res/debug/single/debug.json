@@ -1760,6 +1760,10 @@
         "source": "D:\\Raindrops\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_doc_green.png"
     },
     {
+        "merged": "D:\\Raindrops\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample2.mp4.flat",
+        "source": "D:\\Raindrops\\app\\src\\main\\res\\raw\\sample2.mp4"
+    },
+    {
         "merged": "D:\\Raindrops\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_collection_blue_locked.png.flat",
         "source": "D:\\Raindrops\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_collection_blue_locked.png"
     },

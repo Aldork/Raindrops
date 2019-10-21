@@ -9,6 +9,8 @@ import android.net.Uri;
 import com.kinetiqa.glacier.R;
 
 import java.io.File;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by Tom on 2014-11-02.
@@ -50,10 +52,27 @@ public class Utils {
     }
 
     public static long getLengthOfVideoFileMilliseconds(Context c, String path) {
-        MediaPlayer mp = MediaPlayer.create(c, R.raw.sample);
-        int duration = mp.getDuration();
-        mp.release();
-        return duration;
+
+
+        Pattern pattern = Pattern.compile("([^\\/]+$)");
+
+        Matcher matcher = pattern.matcher(path);
+
+        if(matcher.find())
+        {
+            String videoNameWithExtension = matcher.group(1);
+
+            String videoName = videoNameWithExtension.replaceAll("\\.(.*)", "");
+
+            Uri uri = Uri.parse("android.resource://" + c.getPackageName() + "/raw/" + videoName);
+
+            MediaPlayer mp = MediaPlayer.create(c, uri);
+            int duration = mp.getDuration();
+            mp.release();
+            return duration;
+        }
+
+        return 0;
     }
 
 }

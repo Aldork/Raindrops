@@ -353,22 +353,22 @@ public class FragmentMainMenu extends Fragment {
             try
             {
 
-                InputStream is = getResources().openRawResource(R.raw.sample);
-                //FileInputStream fin = new FileInputStream(new File(sourceFilePath));
-                File file = new File(path);
-                System.out.println("file path");
-                System.out.println(file);
-                file.getParentFile().mkdirs();
-                OutputStream fout = new FileOutputStream(file);
-
-                byte[] buffer = new byte[is.available()];
-
-                while(is.available() != 0) {
-                    fout.write(is.read(buffer));
-                }
-
-                is.close();
-                fout.close();
+//                InputStream is = getResources().openRawResource(R.raw.sample);
+//                //FileInputStream fin = new FileInputStream(new File(sourceFilePath));
+//                File file = new File(path);
+//                System.out.println("file path");
+//                System.out.println(file);
+//                file.getParentFile().mkdirs();
+//                OutputStream fout = new FileOutputStream(file);
+//
+//                byte[] buffer = new byte[is.available()];
+//
+//                while(is.available() != 0) {
+//                    fout.write(is.read(buffer));
+//                }
+//
+//                is.close();
+//                fout.close();
             }
             catch(Exception e) {
                 System.out.println("Something went wrong! Reason: " + e.getMessage());
