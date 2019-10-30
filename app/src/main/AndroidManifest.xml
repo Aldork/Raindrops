@@ -14,6 +14,16 @@
         android:icon="@drawable/ic_launcher"
         android:theme="@android:style/Theme.Holo.NoActionBar"
         android:label="@string/app_name" >
+        <activity android:name=".ui.Home"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"
+            android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".ui.Initialize"
             android:label="@string/app_name"
@@ -27,9 +37,6 @@
         <activity
             android:name=".ui.Setup"
             android:screenOrientation="landscape" />
-        <activity
-            android:name=".ui.Home"
-            android:screenOrientation="landscape"/>
         <activity
             android:name=".ui.MediaDocument"
             android:screenOrientation="landscape" />

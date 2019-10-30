@@ -25,7 +25,6 @@ import android.preference.PreferenceManager;
 import com.kinetiqa.glacier.R;
 import com.kinetiqa.glacier.core.Config;
 import com.kinetiqa.glacier.database.DatabaseHelper;
-import com.kinetiqa.glacier.dialogs.DialogLogin;
 import com.kinetiqa.glacier.menu.MenuItem;
 
 public class Initialize extends Activity {
@@ -35,8 +34,6 @@ public class Initialize extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		System.out.println("Saved instance");
-		System.out.println(savedInstanceState);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.loading);
 		sharedPreferences = PreferenceManager
