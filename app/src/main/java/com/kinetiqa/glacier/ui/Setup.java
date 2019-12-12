@@ -71,6 +71,7 @@ public class Setup extends Activity {
 					"<menu id=\"151sd5\" name=\"Safety\" requires=\"\" desc=\"\">\n" +
 					"    <item id=\"40j03G\" type=\"1\" activity=\"true\" path=\"sample.mp4\" requires=\"\" desc=\"\">Safety Item 1</item>\n" +
 					"    <item id=\"40j03H\" type=\"1\" activity=\"true\" path=\"sample2.mp4\" requires=\"\" desc=\"\">Safety Item 2</item>\n" +
+					"    <item id=\"40j03J\" type=\"1\" activity=\"true\" path=\"f014_formated.mp4\" requires=\"\" desc=\"\">Type de blessures F 014</item>\n" +
 					"</menu>\n" +
 					"<menu id=\"151sd6\" name=\"Test\" requires=\"151sd5\" desc=\"\">\n" +
 					"    <item id=\"40j03I\" type=\"1\" activity=\"true\" path=\"sample.mp4\" requires=\"\" desc=\"\">Test Item 1</item>\n" +

@@ -224,10 +224,43 @@
                     </RelativeLayout>
 
                     <RelativeLayout
-                        android:id="@+id/award_stat_avgpointsweekly_container"
+                        android:id="@+id/award_stat_time_last_week_container"
                         android:layout_width="match_parent"
                         android:layout_height="60dip"
                         android:layout_below="@+id/award_stat_avgtimeweekly_container"
+                        android:padding="5dip">
+
+                        <TextView
+                            android:id="@+id/award_stat_time_last_week_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="14dip"
+                            android:layout_marginLeft="20dip"
+                            android:layout_marginRight="20dip"
+                            android:layout_marginTop="14dip"
+                            android:text="MINUTES PRACTICED LAST WEEK"
+                            android:textColor="@color/grey900"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/award_stat_time_last_week_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="14dip"
+                            android:layout_marginRight="20dip"
+                            android:layout_marginTop="14dip"
+                            android:text="100"
+                            android:textColor="@color/blue500"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/award_stat_avgpointsweekly_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dip"
+                        android:layout_below="@+id/award_stat_time_last_week_container"
                         android:padding="5dip">
 
                         <TextView
@@ -327,7 +360,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="60dip"
                         android:layout_below="@+id/award_stat_avgpointsdaily_container"
-                        android:layout_marginTop="14dip"
+                        android:layout_marginTop="6dp"
                         android:padding="5dip">
 
                         <TextView

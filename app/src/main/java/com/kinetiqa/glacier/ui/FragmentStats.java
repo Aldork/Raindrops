@@ -94,6 +94,8 @@ public class FragmentStats extends Fragment {
                 .getTimeSpentLifetime();
         lifeTimeMinutes = Math.round(lifeTimeMinutes / 60);
 
+        long lastWeekMinutes = DatabaseHelper.getInstance(getActivity()).getTimeSpentWatchingPastWeek();
+
         long lifeTimePoints = (int) sharedPreferences.getLong("points", 0);
 
         long numberDaysPracticed = DatabaseHelper.getInstance(getActivity()).getNumberDaysPracticed();
@@ -120,6 +122,10 @@ public class FragmentStats extends Fragment {
                 / numberWeeksPracticed);
         award_stat_avgpointsweekly_text.setText(String
                 .valueOf(averageWeeklyPoints));
+
+        TextView award_stat_time_last_week_text = (TextView) fragmentView.findViewById(R.id.award_stat_time_last_week_text);
+        award_stat_time_last_week_text.setText(String
+                .valueOf(lastWeekMinutes));
 
         TextView award_stat_avgtimedaily_text = (TextView) fragmentView.findViewById(R.id.award_stat_avgtimedaily_text);
         Integer averageDailyPracticed = Math.round(lifeTimeMinutes
